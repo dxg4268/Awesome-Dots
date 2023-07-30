@@ -1,0 +1,12 @@
+/* Ayu-Dark Colors for Rofi */
+
+* {
+    background:     #0a0e140b;
+    background-alt: #282B31;
+    foreground:     #FFFFFFFF;
+    /* selected:       #61AFEF ;*/
+    selected:       #DF5296;
+    selected-text:  #0a0e14;
+    active:         #ffd0ff;
+    urgent:         #E06C75FF;
+}
