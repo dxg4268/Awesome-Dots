@@ -3,7 +3,7 @@
 
 Rice consists of soothing and calming colors and overall theme.
 
-- Note : Get all the themes, icons, fonts from  [here]( www.github.com/dxg4268/legion_files)
+- Note : Get all the themes, icons, fonts from  [here](https://www.github.com/dxg4268/legion_files)
 
 
 ## Features
