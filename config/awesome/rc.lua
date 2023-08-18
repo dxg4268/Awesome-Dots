@@ -239,7 +239,7 @@ awful.keyboard.append_global_keybindings({
               {description = "run prompt", group = "launcher"}),
     awful.key({ modkey }, "p", function() menubar.show() end,
               {description = "show the menubar", group = "launcher"}),
-    awful.key({ modkey, }, "space", function () awful.util.spawn("sh /home/dxg/.local/bin/fullscreen_run.sh") end),
+    awful.key({ modkey, }, "space", function () awful.util.spawn("sh $HOME/.local/bin/fullscreen_run.sh") end),
 })
 
 -- Tags related keybindings
