@@ -17,7 +17,6 @@ Rice consists of soothing and calming colors and overall theme.
 - **Compositor ✨ >** Picom-Ibhagwan
 - **OS >** LegionOS (Arch Linux)
 
-
 ## Installation
 
 * Install Yay Package Manager (AUR Support)
@@ -30,7 +29,7 @@ Rice consists of soothing and calming colors and overall theme.
 * Install Required Packages
 
 ```bash
-  yay -S awesome-git rofi polybar betterlockscreen nitrogen feh lxappearance kitty ttf-sarasa-gothic picom-ibhagwan-git zsh zsh-syntax-highlighting nemo arc-gtk-theme zsh-autosuggestions starship zsh-history-substring-search pkgfile fzf
+  yay -S awesome-git rofi polybar betterlockscreen nitrogen feh lxappearance kitty ttf-sarasa-gothic picom-ibhagwan-git zsh zsh-syntax-highlighting nemo arc-gtk-theme zsh-autosuggestions starship zsh-history-substring-search pkgfile fzf unzip ttf-liberation ttf-dejavu ttf-indic-otf dunst --needed 
 ```
   
 * Install necessary fonts, icons, themes, binary files
@@ -39,14 +38,13 @@ Rice consists of soothing and calming colors and overall theme.
    cd legion_files
    cp .bashrc ~
    cp .zshrc ~
+   cp .Xresources ~
    cp -r bin ~/.local/
 
    mkdir -p ~/{.themes, .icons, .fonts}
    cp -r usr/share/icons/* ~/.icons/
    cp -r usr/share/themes/* ~/.themes/
    cp -r usr/share/fonts/* ~/.fonts/
-
-```
 
 
 ## Screenshots
