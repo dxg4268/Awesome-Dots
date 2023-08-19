@@ -62,7 +62,7 @@ sudo git clone https://github.com/dxg4268/wallpapers /usr/share/wallpapers
 
 * Install the config
 ```bash
-   bash install.sh 
+bash install.sh 
 ```
 
 
